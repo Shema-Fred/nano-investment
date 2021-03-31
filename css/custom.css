@@ -1,0 +1,36 @@
+
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+#welcome {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #1d1c07;
+  animation-duration: 5s;
+  animation-name: moving;
+}
+@keyframes moving {
+  from {
+      margin-left: 100%;
+      width: 300%;
+  }
+  to {
+      margin-left: 0%;
+      width: 100%;
+  }
+}
