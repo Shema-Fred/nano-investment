@@ -1,3 +1,4 @@
+@import "./main.css";
 
 body {
   padding-top: 56px;
@@ -26,11 +27,11 @@ body {
 }
 @keyframes moving {
   from {
-      margin-left: 100%;
-      width: 300%;
+    margin-left: 100%;
+    width: 300%;
   }
   to {
-      margin-left: 0%;
-      width: 100%;
+    margin-left: 0%;
+    width: 100%;
   }
 }
