@@ -122,7 +122,7 @@
                                 </svg>                                                 
                             </div>
                             <div class="col"> 
-                                <a href="mailto:info@company.com" class="text-white">info@company.com</a> 
+                                <a href="mailto:Investmentnano@gmail.com" class="text-white">Investmentnano@gmail.com</a> 
                             </div>
                         </div>
                         <div class="mb-4 no-gutters row">
@@ -132,7 +132,7 @@
                                 </svg>                                                 
                             </div>
                             <div class="col"> 
-                                <a href="tel:078899448833" class="text-white">078899448833</a> 
+                                <a href="tel:+250785368001" class="text-white">(+250) 785-368-001</a> 
                             </div>
                         </div>                                         
                     </div>                                     
@@ -150,17 +150,17 @@
             <p class="mb-5 text-secondary text-center">
               Ask us anything...
             </p>
-            <form>
+            <form id="contactForm">
               <div class="form-group">
                 <input
-                  type="text"
+                  type="text" id="name"
                   class="border border-0 form-control rounded-0"
                   placeholder="Enter name..."
                 />
               </div>
               <div class="form-group">
                 <input
-                  type="email"
+                  type="email" id="email"
                   class="border border-0 form-control rounded-0"
                   placeholder="Enter email..."
                 />
@@ -169,11 +169,11 @@
                 <textarea
                   class="border-0 form-control rounded-0"
                   rows="6"
-                  placeholder="Enter your message..."
+                  placeholder="Enter your message..." id="message"
                 ></textarea>
               </div>
               <button
-                type="submit"
+                type="submit" id="submit-btn"
                 class="btn btn-block btn-primary rounded-0 text-uppercase"
               >
                 Submit
@@ -269,6 +269,12 @@
 
     <!-- Contact form JavaScript -->
     <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_KNwHV34YlKmcYpDUP3Z3k");
+})();
+</script>
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
   </body>
