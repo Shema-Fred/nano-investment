@@ -10,8 +10,8 @@ $(function () {
       var name = $("input#name").val();
       var email = $("input#email").val();
       var message = $("textarea#message").val();
-      const TID = "";
-      const SID = "";
+      const TID = "template_w4m9dd5";
+      const SID = "service_2xxp7ho";
 
       const params = {
         from_name: name,
